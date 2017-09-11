@@ -1,0 +1,44 @@
+@start-color: #5bd6c9;
+
+@darken-percentage: 5%;
+@saturate-percentage: 5%;
+
+.bg-color (@mul) {
+  background: darken(saturate(@start-color, @saturate-percentage*(@mul - 1)), @darken-percentage*(@mul - 1))
+}
+
+.cl-bk1 {
+  .bg-color(1);
+}
+
+.cl-bk2 {
+  .bg-color(2);
+}
+
+.cl-bk3 {
+  .bg-color(3);
+}
+
+.cl-bk4 {
+  .bg-color(4);
+}
+
+.cl-bk5 {
+  .bg-color(5);
+}
+
+.cl-bk6 {
+  .bg-color(6);
+}
+
+.cl-bk7 {
+  .bg-color(7);
+}
+
+.cl-bk8 {
+  .bg-color(8);
+}
+
+.cl-bk9 {
+  .bg-color(9);
+}

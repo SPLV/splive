@@ -1,0 +1,154 @@
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+    .lg-txt {
+        padding: 5px;
+        display: block;
+        font-size: 8px !important;
+    }
+
+    button.btn-dj.tx-ft {
+        font-size: 8px !important;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+    .lg-txt {
+        padding: 0px;
+        display: block;
+        font-size: 12px !important;
+    }
+
+    .row.bd {
+        margin-bottom: 10px !important;
+    }
+
+    .row.hd {
+        margin-bottom: 10px;
+    }
+
+    button.btn-dj.tx-ft {
+        font-size: 10px !important;
+        padding: 5px 0;
+    }
+    
+    
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding : 0px !important;
+    }
+    
+    .arbitrage .logoCont img {
+        height : 30px !important;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+    .logo {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .lg-txt {
+        padding: 15px;
+        display: block;
+        font-size: 16px !important;
+    }
+
+    .row.bd {
+        margin-bottom: 22px !important;
+    }
+
+    button.btn-dj.tx-ft {
+        font-size: 16px !important;
+    }
+
+    .row.hd {
+        margin-bottom: 25px !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+    .row.bd {
+        display: block;
+        /*padding: 5px 0;*/
+    }
+
+    .row.bd {
+        margin-bottom: 18px !important;
+    }
+
+    .lg-txt {
+        padding: 10px !important;
+        display: block !important;
+        font-size: 20px !important;
+
+    }
+
+    button.btn-dj.tx-ft {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .lg-txt {
+        padding: 5px !important;
+        display: block;
+        font-size: 16px !important;
+    }
+
+    .row.bd {
+        margin-bottom: 15px !important;
+    }
+
+    button.btn-dj.tx-ft {
+        font-size: 16px !important;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1440px) {
+
+    .row.bd {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .lg-txt {
+        padding: 10px !important;
+        display: block !important;
+        font-size: 24px !important;
+
+    }
+
+    button.btn-dj.tx-ft {
+        font-size: 24px !important;
+    }
+    
+    .arbitrage span.price.label {
+        font-size: 15px !important;
+        display: inline-block;
+        padding: 16px 0px;
+        width: 85%;
+        border-radius: 60px;
+    }
+        
+}
+
+.red {
+    background-color: #FF5722;
+    font-weight: bold;
+}
